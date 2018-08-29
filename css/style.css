@@ -1,0 +1,245 @@
+/* ---- reset ---- */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body {
+  margin: 0;
+  font-family: 'Domine', serif;
+    background-color: rgba(40, 23, 0,1);
+
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #800000;
+}
+ #particle-js-2 {
+  {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2B4A6F;
+}
+ }
+
+ /* --- End of aprticle js -- */ 
+
+.navbar {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  font-family: 'Bellefair', serif;
+  padding-top: 1em;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  font-size: 1em;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-header > a {
+  color:rgba(255,240,240,.9)
+
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-header > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    border-bottom-style: ridge;
+    border-color: rgb(250,250,250);
+    color: rgb(255,240,240);
+}
+
+.kh {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.kh h1 {
+  color: rgba(255,240,240,.9);
+  text-transform: uppercase;
+  font-size: 10vw;
+  font-family: 'Bellefair', serif;
+  text-shadow: 2px 1px 2px white;
+}
+
+#first-section {
+    height: 100vh;
+  }
+
+
+ #overlay > div  {
+  width:80%;
+  color: rgba(255,240,240,.9);
+  text-align:center;
+  font-family: SFCompactDisplay-Regular;
+  font-family: 'Bellefair', serif;
+  font-size: 2.1em;
+}
+
+
+
+
+#down {
+  width: 100px;
+  height: 100px;
+
+  
+}
+
+#down:hover {
+  filter: blur(.5px);
+  zoom:110%;
+}
+
+.jumbotron {
+  margin-top: 14%;
+  
+}
+#over > img {
+  position: relative;
+}
+
+.display-images {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.overlay {
+  position: relative;
+}
+
+#map {
+   width: 100%;
+   height: 280px;
+   background-color: grey;
+   box-shadow: 2px 3px 2px rgba(200,200,200,.8)
+   margin-left:80%;
+ }
+
+.mySlides {
+  border: 1px solid rgb(100,100,100);  
+  margin-top: 9%;
+  box-shadow: 2px 2px 2px 2px rgb(160,160,160);
+}
+ 
+.doctors {
+  background-image:  url('2.jpeg') ;
+  background-size: cover;
+  color: rgba(250,250,250,.9);
+  font-family: 'Bellefair', serif;
+  text-shadow: 2px 3px 5px rgba(20,20,20,.8);
+
+}
+
+.facility-boxes {
+  background-color: rgba(20,20,20,0.9);
+  color: rgba(250,250,250,.9);
+  font-family: 'Bellefair', serif;
+  text-shadow: 2px 3px 5px rgba(20,20,20,.8);
+  font-size :2.0em;
+  margin: 20px
+}
+
+.img-circle {
+  height: 300px;
+  width: 300px;
+      border: 4px solid rgba(250,250,250,.5);
+    background: rgba(250,250,250,.5);
+
+}
+
+.img-circle:hover {
+  filter: blur(1px);
+}
+
+#over {
+  position: relative;
+  margin-top: 0;
+}
+
+.doctors-container > h1 {
+  color:rgba(250,250,250,1); 
+  margin-top: 5vh;
+  text-transform: uppercase;
+  text-shadow: 2px 3px 5px rgba(20,20,20,.8);
+  font-family: 'Zilla Slab', serif;
+
+}
+
+.doctors-container {
+  padding: 2% 5% 5% 5%;
+}
+
+.btn-6d {
+  font-weight: bold;
+  font-size:1.5em;
+  width: 150px;
+  border: 2px solid rgba(250,250,250,.8);
+  background: transparent;
+  color: rgba(250,250,250,.8);
+  padding: 3px 7px 3px 7px;
+  font-family: SFCompactDisplay-Regular;
+  border-radius: 15px;
+}
+
+.btn-6d:hover { 
+ background: rgba(240,240,240,.6);
+ transition-delay: .02s; 
+}
+
+.doc-head {
+  color: :white;
+  text-shadow: 2px 3px 5px gray;
+  font-size :4.0em;
+  padding-top: 2vh;
+  font-family: 'Bellefair', serif;
+  margin-left: 3%
+}
+.staff {
+  color: rgba(230,230,230,.9);
+  text-shadow: 1px 2px 2px gray;
+
+}
+
+
+#third_section {
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('f.jpg') ;
+    background-size: cover;
+    margin-top: -100px;
+}
+
+.footer {
+  margin-top: -30px;
+  font-family: 'Zilla Slab', serif;
+  background-color: rgba(40, 23, 0,1);
+  color:rgba(255,240,240,.7)
+
+}
+
+.footer > h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1%;
+  color:rgba(255,240,240,.9)
+}
+
+
